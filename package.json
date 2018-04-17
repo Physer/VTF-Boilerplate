@@ -1,0 +1,29 @@
+{
+  "name": "vtf-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel-node ./index.js --presets env node -e \"require('./index.js')\" --destination"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Physer/VTF-Boilerplate.git"
+  },
+  "author": "Alex Schouls",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Physer/VTF-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Physer/VTF-Boilerplate#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "fs-extra": "^5.0.0",
+    "yargs": "^11.0.0"
+  },
+  "bin": {
+    "vtf-boilerplate": "./cli.js"
+  }
+}
