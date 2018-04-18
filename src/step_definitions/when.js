@@ -1,6 +1,6 @@
 import { defineSupportCode } from 'cucumber';
 
-var config = require('../generic/config.js');
+var config = require('../configuration/settings.js');
 var url;
 
 defineSupportCode(( { When }) => {
