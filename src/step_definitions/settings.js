@@ -1,8 +1,4 @@
-module.exports = {
-	baseUrl: {
-		websiteURL: 'https://localhost/'
-    },
-	
+module.exports = {	
 	delay: {
 		loadDelay: 3000,
 		clickDelay: 5000
